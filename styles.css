@@ -1,0 +1,100 @@
+.hat{
+  width: 0;
+  height: 300px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid purple;
+}
+.face {
+  width: 100px;
+  height: 140px;
+  background: beige;
+  border-radius: 50% / 100%;
+
+}
+
+.eye {
+  width: 10px;
+  height: 40px;
+  background: black;
+  border-radius: 50%;
+  margin-left: 15%;
+  margin-top: 5%;
+  border: solid white;
+  border-width: 3px;
+
+}
+.head {
+
+  margin-left: 36%;
+  margin-right: 25%;
+}
+.wizard {
+  margin: 200px;
+  padding-left: 15px;
+
+}
+.mustache {
+  height: 20px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 12px solid darkgray;
+}
+
+
+.beard {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom: 20px solid darkgray;
+  position: relative;
+  top: -50px;
+  text-align: center;
+
+}
+.beard:after {
+  text-align: center;
+  margin: ;
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 70px solid darkgray;
+}
+.robes{
+  width: 50%;
+  background: purple;
+  height: 200px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+
+.bod{
+  width: auto;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.arms {
+  height: 175px;
+  width: 10px;
+  background: purple;
+  /* border-color: black;
+  border-width: 5px; */
+  border: 3px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.arms:after{
+  background:beige;
+  width: 12px;
+  height: 12px;
+  border-radius: 25%;
+}
+
+body {
+  background: cyan;
+}
